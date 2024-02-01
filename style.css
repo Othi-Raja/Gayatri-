@@ -104,13 +104,13 @@ body {
 }
 
 .aboutbg {
-  background-image: url("/line.png");
+  background-image: url("img/line.png");
   background-repeat: no-repeat;
   font-weight: 600;
 }
 
 .hashtags {
-  background-image: url("/bg-shape-1.png");
+  background-image: url("img/bg-shape-1.png");
   background-repeat: no-repeat;
   transform: translateY(10px);
 }
@@ -224,7 +224,7 @@ nav {
 }
 
 .section2bg {
-  background-image: url("arrow.png");
+  background-image: url("img/arrow.png");
   background-repeat: no-repeat;
 }
 
@@ -249,6 +249,41 @@ nav {
     width: 100%;
     /* Expand to full width */
   }
+}
+
+.spotifyrow{
+  
+  margin-bottom: 40px;
+
+}
+.spotifydiv1{
+  background-image: url('img/Backstage_Tickets_-_Header-1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.138);
+}
+.spotify-btn {
+  color: #000000; /* Text color */
+  border-radius: 20px;
+  outline: none; /* Disable focus outline */
+  border: .9px solid gray;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  margin-left: 5px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.273);
+  margin-top: 10px;
+}
+.spotify-btn:focus {
+  border: .9px solid #1DB954; /* Change the border color on focus */
+  box-shadow: 0 0 5px rgba(29, 185, 84, 0.5); /* Optional: Add a box shadow on focus */
+}
+
+.spotify-btn:hover {
+  border: .9px solid gray;
+  background:none ;
+ 
+ font-weight: 300;
+ color: #1DB954;
 }
 
 .cardcolor {
@@ -352,11 +387,16 @@ nav {
     .cardShadow{
       height: auto;
     }
+    .spotify-btn{
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
   }
 
   @media (max-width:389px) {
     .letters {
       font-size: 15px;
+      font-weight: 600;
     }
     .cardShadow{
       height: auto;
