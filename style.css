@@ -189,7 +189,8 @@ text-shadow: 2px 2px 19px rgba(0, 0, 0, 0.212);
 
 
 .scroll-item {
-  margin-right: 10px; /* Adjust the margin as needed */
+  margin-right: 40px; 
+  margin-left: 10px;/* Adjust the margin as needed */
 }
 nav {
   /* From https://css.glass */
@@ -279,10 +280,8 @@ nav {
   height: auto;
   padding-bottom: 20px;
 }
-.review{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid red;
+.reviews{
+  color: black;
 }
 .card-img-top {
   padding: 5px 8px;

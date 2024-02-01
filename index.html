@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Add Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     <title>Gayatri Ramachandran</title>
@@ -19,26 +20,26 @@
     <div id="your-element-selector">
         <nav class="navbar navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="#home" style="color: gray;">Gayatri</a>
-            <button style="border: none; outline: none;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button style="border: none; outline: none;" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: black;"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: 50px;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link smooth-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link smooth-scroll" href="#home" onclick="closeNavbar()">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#about">About</a>
+                        <a class="nav-link smooth-scroll" href="#about" onclick="closeNavbar()">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#Services">Services</a>
+                        <a class="nav-link smooth-scroll" href="#Services" onclick="closeNavbar()">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#Blogs">Blogs</a>
+                        <a class="nav-link smooth-scroll" href="#Blogs" onclick="closeNavbar()">Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#Contact">Contact</a>
+                        <a class="nav-link smooth-scroll" href="#Contact" onclick="closeNavbar()">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -72,26 +73,27 @@
             <div class="container" style="padding: 20px;">
                 <div class="row">
                     <div class="col-sm-6" style="margin-top: 60px;">
-                        <h1 class="aboutbg">About</h1>
-                        <p style="line-height: 27px;">Gayatri Ramachandran admin of <b>Gayatimes</b> <br>we are
+                        <h1 class="aboutbg" data-aos="fade-in">About</h1>
+                        <p style="line-height: 27px;" data-aos="fade-in">Gayatri Ramachandran admin of <b>Gayatimes</b> <br>we are
                             uploading
                             the job opportunities for past 2 years and gayatimes will also provide your freelancing
                             service
                             too</p>
+                            <p style="color: sandybrown;" data-aos="fade-in" >Talks about <span style="color:sandybrown;">#</span>Freelancer, <span style="color:sandybrown;">#</span>Freelancejobs, and <span style="color:sandybrown;">#</span>Marketing and Advertising</p>
                         <!-- List of Hashtags with Tick Icon -->
                         <ul class=" container hashtags">
-                            <li><span class="tick-icon">&#9989;</span> Freelancer</li>
-                            <li><span class="tick-icon">&#9989;</span> Freelance Jobs</li>
-                            <li><span class="tick-icon">&#9989;</span> Marketing and Advertising</li>
+                            <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Freelancer</li>
+                            <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Freelance Jobs</li>
+                            <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Marketing and Advertising</li>
                         </ul>
                         <div style=" border-top: .9px solid gray; padding-top: 20px;">
-                            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
-                                <i class="fab fa-linkedin"></i>
+                            <a  href="https://www.linkedin.com/in/gayathri-ramachandran-b86a5321b/" target="_blank">
+                                <i data-aos="fade-in" class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://t.me/your-telegram-channel" target="_blank">
-                                <i class="fab fa-telegram"></i></a>
+                            <a href="https://t.me/gayatime" target="_blank">
+                                <i data-aos="fade-in" class="fab fa-telegram"></i></a>
                             <a href="https://www.blogger.com/profile/05797361068923120560">
-                                <i style="font-size: 20px;" class="fab fa-blogger"></i>
+                                <i data-aos="fade-in" style="font-size: 20px;" class="fab fa-blogger"></i>
                             </a>
                         </div>
                     </div>
@@ -104,22 +106,22 @@
         <!-- section -2 -->
         <div style="color: black; text-decoration: none; margin-top: 90px; margin-bottom: 30px;" id="Services">
             <div class="container">
-                <h2 class="borderBottom">We Provide</h2>
+                <h2 class="borderBottom" data-aos="fade-in">We Provide</h2>
                 <div class="row" style="margin-top: 20px;">
                     
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-3 mb-4"  data-aos="fade-in"  data-aos-delay="200">
                         <div class="card cardcolor">
                             <div class="card-body">
                                 <h5 class="card-title">Logo Design <img src="/curve.png" alt="curve" height="16px"
                                         width="16px"></h5>
                                 <small class="card-text">Expert logo design services for a strong brand
-                                    identity.</small>
+                                    identity.Elevate your brand with our bespoke Logo Design services.   </small>
                                 <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="card cardcolor">
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-in" data-aos-delay="300">
+                        <div class="card cardcolor" >
                             <div class="card-body">
                                 <h5 class="card-title">Resume Building <svg xmlns="http://www.w3.org/2000/svg"
                                         width="16" height="16" fill="currentColor" class="bi bi-file-text"
@@ -135,17 +137,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-3 mb-4"  data-aos="fade-in"  data-aos-delay="400">
                         <div class="card cardcolor">
                             <div class="card-body">
-                                <h5 class="card-title">Video Editing <img src="video.png" alt="vedioIcon" height="16px">
+                                <h5 class="card-title">Video Editing<img src="video.png" alt="vedioIcon" height="16px">
                                 </h5>
-                                <small class="card-text">Creative video editing to bring your ideas to life.</small>
+                                <small class="card-text">Creative video editing to bring your ideas to life.Our skilled professionals bring creativity and precision to every project, enhancing your videos</small>
                                 <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-3 mb-4"  data-aos="fade-in"  data-aos-delay="500">
                         <div class="card cardcolor">
                             <div class="card-body">
                                 <h5 class="card-title">Digital Marketing <img src="/digital-campaign.png"
@@ -162,19 +164,19 @@
         </div>
 
         <div class="container cardColor" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 20px; margin-bottom: 20px;">
-            <h3 class="review">Reviews</h3>
+            <h3 class="borderBottom reviews" data-aos="fade-in">Reviews</h3>
             <div class="row">
           
-                <div class="col-sm-6">
-                    <div class="card cardShadow" style="padding-bottom: 38px;">
+                <div class="col-sm-6" style="margin-top: 10px;">
+                    <div class="card cardShadow" style="padding-bottom: 38px;" data-aos="fade-in">
                         <div class="card-body ">
                             <b><span style="font-size: 20px; color:red; opacity: .6;"><i class="fas fa-quote-left"></i></span> Hi Gayathri Ramachandran </b><br> <small>I am Naveen thanks for offering this email for us.. am really happy to share this with you I have contacted some hr's through this and I got some response too.  🌟 Am completed my BE graduate and I am unemployed for last two years, Because of you now I got a solution for it.</small>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card cardShadow">
+                <div class="col-sm-6" style="margin-top: 10px;">
+                    <div class="card cardShadow" data-aos="fade-in">
                         <div class="card-body">
                             <i style="color: red; opacity: .6; font-size: 20px;" class="fas fa-quote-left"></i><b> Hi There</b> <br> <small>
                                 Highly recommend the creative skills and design ability of Mrs. Gayathri Design. 🌟 We are delighted with the designs she has provided for us and strongly encourage you to consider her for design work for your organization. 🎨 She helped me get exactly what I was looking for. Thank you, Gayathri, for your great work! 👏👍</small>
@@ -186,9 +188,9 @@
         </div>
         <div class="container text-center context"
             style="color:  black; padding-top: 30px; padding-bottom: 30px; width: 100%; text-align: center;  " id="Blogs">
-            <h1>Start Your New Career Journey</h1>
-            <h3>This is Gayathri Job Article blogger</h3>
-            <p> <i style="font-size: 40px; color: orange;" class="fab fa-blogger"></i></p>
+            <h1 data-aos="fade-in"  data-aos-duration="200">Start Your New Career Journey</h1>
+            <h3 data-aos="fadein"  data-aos-duration="300">Do Follow Gayathri blogger</h3>
+            <p><a data-aos="fadein"  data-aos-duration="300" href="https://www.blogger.com/profile/05797361068923120560"> <i style="font-size: 40px; color: orange;" class="fab fa-blogger"></i></a></p>
         </div>
         <div class="container snap" style="overflow-x: hidden; margin-bottom: 20px;">
             <div class="scroll-container" style="margin-bottom: 20px; padding-left: 20px;  ">
@@ -245,6 +247,30 @@
                 </div>
             </div>
         </div>
+        <footer style="background-color: black; " id="Contact">
+            <div class="footer-copyright container" id="Contact" style="padding-top: 20px;">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 text-center" >
+                        <div class="copyright-text " >
+                            <h4 >Gayathi</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center footcon" >
+                        <span> <a href="https://www.linkedin.com/in/gayathri-ramachandran-b86a5321b/" target="_blank"></a>
+                            <i class="fab fa-linkedin Icon" style="font-size: 13px;"></i>
+                            </a> </span>
+                        <span> <a href="https://t.me/gayatime" target="_blank">
+                                <i style="font-size: 13px;" class="fab fa-telegram Icon" ></i></a></span>
+                        <span> <a href="https://www.blogger.com/profile/05797361068923120560" target="_blank">
+                                <i class="fab fa-blogger Icon" style="font-size: 13px;"></i></a></span>
+                                
+                    </div>
+                    <div class="col-sm-4 text-center footcon" >
+                        <a style="font-size: 10px;" href="mailto:gaya3offical@gmail.com" target="_blank">gaya3offical@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <footer style="background-color: black;" id="Contact">
             <div class="footer-copyright container" id="Contact" style="padding-top: 20px;">
                 <div class="row justify-content-center">
@@ -266,8 +292,32 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script>
+             // Function to handle visibility based on screen width
+             function handleVisibility() {
+                var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                var items = document.querySelectorAll('.scroll-item');
+
+                if (screenWidth < 768) {
+                    items.forEach(function (item, index) {
+                        item.style.display = index === 0 ? 'block' : 'none';
+                    });
+                } else {
+                    items.forEach(function (item) {
+                        item.style.display = 'block';
+                    });
+                }
+            }
+
+            // Call the function on window load and resize
+            window.addEventListener('load', handleVisibility);
+            window.addEventListener('resize', handleVisibility);
+             function closeNavbar() {
+        $('.navbar-toggler').click(); // Simulate a click on the navbar-toggler button
+    }
+                AOS.init();
             // Wrap every letter in a span
             var textWrapper = document.querySelector('.ml1 .letters');
             textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
