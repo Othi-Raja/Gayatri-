@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 .navbar-brand {
-  font-size: large;
+  font-size: 1em;
   font-weight: 700;
   padding-left: 30px;
   color: gray;
