@@ -24,3 +24,8 @@
     }
 });
 
+
+
+const bloglink =()=>{
+    window.open('https://www.blogger.com/profile/05797361068923120560','_blank')
+}

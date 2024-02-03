@@ -460,8 +460,11 @@ nav {
   -webkit-user-select: none;
   touch-action: manipulation;
   border: none;
+  text-decoration: none;
   outline: none;
+  outline-color: transparent;
 }
+
 
 .button-87:hover {
   background-position: right center;
@@ -470,12 +473,15 @@ nav {
   text-decoration: none;
   border: none;
   outline: none;
+  text-decoration: none;
+  outline-color: transparent;
 }
 
 .button-87:active {
   transform: scale(0.95);
   border: none;
   outline: none;
+  outline-color: transparent;
 }
 
   h5 {
