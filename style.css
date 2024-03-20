@@ -273,6 +273,12 @@ body {
   border-radius: 100px;
   height: auto;
 }
+@media (max-width:480px) {
+  .homeillustration{
+    margin-top: -210PX;
+    margin-bottom: -70PX;
+  }
+}
  /* .dofolloetxt{
   color: black;
  } */
