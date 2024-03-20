@@ -14,11 +14,14 @@
     <title>Gayathri Ramachandran</title>
 </head>
 <body>
+    <div class="loader-container">
+        <div class="loader"><dotlottie-player src="Animation - 1710949020838.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player> </div>
+      </div>
     <!-- id="your-element-selector" -->
     <!-- navbar content -->
-    <div class="bgHome" style="z-index: 1000; margin-top: 70px; color: black;">
+    <div class="bgHome" style="z-index: 1000; margin-top: 70px; color: black;" id="home">
         <nav class="navbar navbar-expand-lg fixed-top" id="myNavbar">
-            <a class="navbar-brand" href="#home" style="color: rgb(0, 0, 0);">Gayathri Rama</a>
+            <a class="navbar-brand" href="#home" style="color: rgb(0, 0, 0);">Gayathri Ram</a>
             <button style="border: none; outline: none;" class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:rgb(0, 0, 0)"></i></span>
@@ -32,9 +35,9 @@
                     <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#about" onclick="closeNavbar()">About</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#Services" onclick="closeNavbar()">Services</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#Blogs" onclick="closeNavbar()">Blogs</a>
                     </li>
@@ -223,6 +226,7 @@
                     <h1 style="font-weight: bold;" data-aos="fade-in" data-aos-delay="200">Gayathri Ramachandran</h1>
                     <small data-aos="fade-in" data-aos-delay="200">By Gayathri Ramachandran</small><br>
                     <small style="color: gray;" data-aos="fade-in" data-aos-delay="200">Build your Career </small><br>
+                    <hr>
                     <a href="https://open.spotify.com/show/26t7smPHIQbPuktHXqIpAk" target="_blank">
                         <button class="btn btn-outline-dark spotify-btn">Listen on Spotify <img
                                 src="img/icons8-circled-play.gif" height="18px" alt="playergif"></button></a>
@@ -272,7 +276,7 @@
                     <div class="blog-content">
                         <h3 style="color: black;"> Microsoft Hiring Software Engineer</h3>
                         <small>Salary: 30 LPA - 45 LPA Bachelor's or Master's degree in Computer Science, Engineering,
-                            Experienced Candidates Can Apply</small>
+                            Experienced Candidates Can Apply</small><br>
                         <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175341891301900288?utm_source=share&utm_medium=member_desktop"
                             target="_blank" class="btn btn-primary blogbtn">Read More</a>
                     </div>
@@ -362,6 +366,8 @@
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script>
+
+
         // Function to handle visibility based on screen width
         function handleVisibility() {
             var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
