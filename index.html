@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +13,12 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     <title>Gayathri Ramachandran</title>
 </head>
-
 <body>
-    
     <!-- id="your-element-selector" -->
     <!-- navbar content -->
-    <nav class="  navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="#home" style="color: rgb(0, 0, 0);">Gayathri Ramachandran</a>
+    <div class="bgHome" style="z-index: 1000; margin-top: 70px; color: black;">
+        <nav class="navbar navbar-expand-lg fixed-top" id="myNavbar">
+            <a class="navbar-brand" href="#home" style="color: rgb(0, 0, 0);">Gayathri Rama</a>
             <button style="border: none; outline: none;" class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:rgb(0, 0, 0)"></i></span>
@@ -28,11 +26,11 @@
             <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: 50px;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link smooth-scroll" href="#home" onclick="closeNavbar()" return false;>Home <span
+                        <a class="nav-link smooth-scroll" href="#home" onclick="closeNavbar()">Home <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#about" onclick="closeNavbar()" return false;>About</a>
+                        <a class="nav-link smooth-scroll" href="#about" onclick="closeNavbar()">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#Services" onclick="closeNavbar()">Services</a>
@@ -45,71 +43,56 @@
                     </li>
                 </ul>
             </div>
-      
-    </nav>
-    <div class="bgHome"
-        style="z-index: 1000; height: 100vh;  margin-top: 70px; color: black; background:url(/img/bg-shape-1.png) no-repeat ;">
-        <div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="responsive-text" style="margin: 50px; ">Unlock endless career possibilities with Gayatimes
-                    </p>
-                   <button
-                            class="button-87" role="button" style="margin-left: 50px; text-decoration: none;" onclick="bloglink()">Gayatimes</button>
-                    <div class="" style="color: black; margin-left: 60px; ">
+        </nav>
+    </div>
+    <section>
+        <div class="container homebg " style=" width: 100%; height: 100%;">
+            <div class="row align-items-center" style="height: 100%; width: 100%;">
+                <!-- Unlock endless career possibilities with Gayatimes -->
+                <div class="col-lg-6 ">
+                    <span class="homecontent">HELLO, Am</span><br>
+                    <span class="homecontent"> Gayathri Ramachandran</span><br>
+                    <small>Admin of Gayatimes</small>
+                    <button class="button-87" role="button" style="text-decoration: none;"
+                        onclick="bloglink()">Gayatimes</button>
+                    <!-- <div style="color: black;">
                         <span> <a href="https://www.linkedin.com/in/gayathri-ramachandran-b86a5321b/" target="_blank">
-                            <i class="fab fa-linkedin Icon"></i>
+                                <i class="fab fa-linkedin Icon"></i>
                             </a> </span>
                         <span> <a href="https://t.me/gayatime" target="_blank">
                                 <i class="fab fa-telegram Icon"></i></a></span>
                         <span> <a href="https://www.blogger.com/profile/05797361068923120560" target="_blank">
                                 <i class="fab fa-blogger Icon" style="font-size: 23px;"></i></a></span>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-sm-6 hideIllustration">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center hideill">
                     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
                         type="module"></script>
-                    <dotlottie-player src="https://lottie.host/7b0ec00b-fab9-45f4-af6a-06b55e85365f/CqOH2TDZzS.json"
-                        background="transparent" speed="1" style="width: 100%; height: 100%;" loop
+                    <dotlottie-player src="https://lottie.host/cea06bea-74b1-46bf-ba45-75010e842e81/fua1vc4E7w.json"
+                        background="transparent" speed="1" style="width: 100%; height: auto;" loop
                         autoplay></dotlottie-player>
                 </div>
             </div>
         </div>
-        <!-- home text content and links -->
-        <!-- <div class="container">
-            <div class="row" style="height: 90vh; ">
-                <div>
-                    <h1 class="ml1 w3-display-middle">
-                        <span class="text-wrapper">
-                            <span class="line line1"></span>
-                            <span class="" style="color: black;">Unlock endless career possibilities with Gayatimes</span>
-                            <span class="line line2"></span>
-                        </span>
-                        <div class="text-center" style="color: black;">
-                            <span> <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"></a>
-                                <i class="fab fa-linkedin Icon"></i>
-                                </a> </span>
-                            <span> <a href="https://t.me/your-telegram-channel" target="_blank">
-                                    <i class="fab fa-telegram Icon"></i></a></span>
-                            <span> <a href="https://www.blogger.com/profile/05797361068923120560">
-                                    <i class="fab fa-blogger Icon" style="font-size: 23px;"></i></a></span>
-                        </div>
-                    </h1>
-                </div>
-            </div>
-        </div> -->
-    </div>
+    </section>
     <!-- about  -->
-    <div class="about aboutsectionbg" id="about" style="color: black;">
-        <div class="container" style="padding: 20px;">
+    <div class="about aboutsectionbg" id="about" style="color: black; margin-top: 20px;">
+        <div class="container" style="padding-left: 20px;">
             <div class="row">
-                <div class="col-sm-6" style="margin-top: 60px;">
-                    <h1 class="aboutbg" data-aos="fade-in">About</h1>
-                    <p style="line-height: 27px;" data-aos="fade-in">Gayathri Ramachandran admin of <b>Gayatimes</b>
+                <div class="col-sm-6 hide" style="height: auto; margin-top: 60px;">
+                    <dotlottie-player src="https://lottie.host/a84c4295-2518-4a42-8982-9bb94585522d/NrUizQLDWy.json"
+                    background="transparent" speed="1" style="width: 90%; height: auto;" loop
+                    autoplay></dotlottie-player>
+                </div>
+                <div class="col-sm-6" style="margin-top: 20px;">
+                    <h1 class="abouttitle" data-aos="fade-in">About</h1>
+                    <p class="aboutBody" style="line-height: 27px;" data-aos="fade-in">Gayathri Ramachandran admin of
+                        <b>Gayatimes</b>
                         <br>we are
                         uploading
                         the job opportunities for past 2 years and gayatimes will also provide your freelancing
-                        services</p>
+                        services
+                    </p>
                     <p style="color: sandybrown;" data-aos="fade-in">Talks about <span
                             style="color:sandybrown;">#</span>Freelancer, <span
                             style="color:sandybrown;">#</span>Freelancejobs, and <span
@@ -117,45 +100,32 @@
                         Advertising</p>
                     <!-- List of Hashtags with Tick Icon -->
                     <ul class=" container hashtags">
-                        <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Freelancer</li>
-                        <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Freelance Jobs</li>
-                        <li data-aos="fade-in"><span class="tick-icon">&#9989;</span> Marketing and Advertising</li>
+                        <li data-aos="fade-in" style="font-size: 20px;"><span class="tick-icon ">&#9989;</span> Freelancer</li>
+                        <li data-aos="fade-in" style="font-size: 18px;"><span class="tick-icon">&#9989;</span> Freelance Jobs</li>
+                        <li data-aos="fade-in" style="font-size: 16px;"><span class="tick-icon">&#9989;</span> Marketing and Advertising</li>
                     </ul>
-                    <div style=" border-top: .9px solid gray; padding-top: 20px;">
-                        <a href="https://www.linkedin.com/in/gayathri-ramachandran-b86a5321b/" target="_blank">
-                            <i data-aos="fade-in" class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://t.me/gayatime" target="_blank">
-                            <i data-aos="fade-in" class="fab fa-telegram"></i></a>
-                        <a href="https://www.blogger.com/profile/05797361068923120560">
-                            <i data-aos="fade-in" style="font-size: 20px;" class="fab fa-blogger"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-6 hide" style="height: auto; margin-top: 60px;">
-                    <img src="img/undraw_features_overview_re_2w78.svg" alt="illustration" height="300px">
+                  <button class="button-87" style="margin-top: 50px;" onclick="link('https://www.linkedin.com/in/gayathri-ramachandran-b86a5321b/')">Connect with us</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- section -2 -->
-    <div style="color: black; text-decoration: none; margin-top: 10px; margin-bottom: 30px;" id="Services">
+    <!-- <div id="Services" class="mt-50">
         <div class="container">
-            <h2 class="borderBottom" data-aos="fade-in">We Provide</h2>
+            <h2 class=" servicestitle" data-aos="fade-in">We Provide</h2>
             <div class="row" style="margin-top: 20px;">
                 <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-in" data-aos-delay="200">
-                    <div class="card cardcolor">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Logo Design <img src="img/curve.png" alt="curve" height="16px"
                                     width="16px"></h5>
-                            <small class="card-text">Expert logo design services for a strong brand
-                                identity.Elevate your brand with our bespoke Logo Design services. </small>
-                            <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                            <p class="card-text">Expert logo design services for a strong brand identity. Elevate your
+                                brand with our bespoke Logo Design services.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-in" data-aos-delay="300">
-                    <div class="card cardcolor">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Resume Building <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                     height="16" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
@@ -164,70 +134,77 @@
                                     <path
                                         d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1" />
                                 </svg></h5>
-                            <small class="card-text">Craft professional resumes that make a lasting
-                                impression.</small>
-                            <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                            <small class="card-text">Craft professional resumes that make a lasting impression.</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-in" data-aos-delay="400">
-                    <div class="card cardcolor">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Video Editing<img src="img/video.png" alt="vedioIcon" height="16px">
                             </h5>
-                            <small class="card-text">Creative video editing to bring your ideas to life.Our skilled
+                            <small class="card-text">Creative video editing to bring your ideas to life. Our skilled
                                 professionals bring creativity and precision to every project, enhancing your
-                                videos</small>
-                            <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+                                videos.</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-in" data-aos-delay="500">
-                    <div class="card cardcolor">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Digital Marketing <img src="img/digital-campaign.png"
                                     alt="digital-campaign" height="16px" width="16px"></h5>
                             <small class="card-text">Strategic digital marketing solutions to boost your online
                                 presence.</small>
-                            <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- review page  -->
-    <div class="container cardColor"
-        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 20px; margin-bottom: 20px;">
-        <h3 class="borderBottom reviews" data-aos="fade-in">Reviews</h3>
-        <div class="row">
-            <div class="col-sm-6" style="margin-top: 10px;">
-                <div class="card cardShadow" style="padding-bottom: 38px;" data-aos="fade-in">
-                    <div class="card-body ">
-                        <b><span style="font-size: 20px; color:red; opacity: .6;"><i
-                                    class="fas fa-quote-left"></i></span> Hi Gayathri Ramachandran </b><br> <small>I am
-                            Naveen thanks for offering this email for us.. am really happy to share this with you I have
-                            contacted some hr's through this and I got some response too. 🌟 Am completed my BE graduate
-                            and I am unemployed for last two years, Because of you now I got a solution for it.</small>
-                    </div>
+    </div> -->
+    <div>
+        <!-- title baners -->
+        <div class="container text-center context" style="background-color: rgba(245, 222, 179, 0.281); border-radius: 30px;">
+            <!-- First Row for Image -->
+            <div class="row">
+                <div class="col-md-6 blogbgimage d-flex align-items-center justify-content-center">
+                    <!-- Add your image here -->
+                    <img src="logogt.png" alt="Your Image" class="img-fluid ">
                 </div>
-            </div>
-            <div class="col-sm-6" style="margin-top: 10px;">
-                <div class="card cardShadow" data-aos="fade-in">
-                    <div class="card-body">
-                        <i style="color: red; opacity: .6; font-size: 20px;" class="fas fa-quote-left"></i><b> Hi
-                            There</b> <br> <small>
-                            Highly recommend the creative skills and design ability of Mrs. Gayathri Design. 🌟 We are
-                            delighted with the designs she has provided for us and strongly encourage you to consider
-                            her for design work for your organization. 🎨 She helped me get exactly what I was looking
-                            for. Thank you, Gayathri, for your great work! 👏👍</small>
+                
+                <div class="col-md-6">
+                    <!-- Second Row for Content -->
+                    <div>
+                        <h1 data-aos="fade-in" data-aos-duration="200">Start Your New Career Journey</h1>
+                        <h3 class="dofolloetxt" data-aos="fadein" data-aos-duration="300">Do Follow Gayatimes</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- Add your follow button here -->
+                                <a href="" class="followbtn">Follow</a>
+                            </div>
+                            <div class="col-6">
+                                <!-- Add your Lottie animation here -->
+                                <!-- Replace 'lottie.json' with the path to your Lottie animation JSON file -->
+                                <dotlottie-player
+                                    src="https://lottie.host/1e57937f-40d3-4777-8df6-7bedafecc78e/aY7Wm3SeGs.json"
+                                    background="transparent" speed="1"
+                                    style="width: 40%; height: auto; rotate: -80deg; padding-top: 30px;" loop
+                                    autoplay></dotlottie-player>
+                            </div>
+                        </div>
+                        <!-- <p>
+                                 <a data-aos="fadein" data-aos-duration="300"
+                                     href="https://www.blogger.com/profile/05797361068923120560"> <i
+                                         style="font-size: 40px; color: orange;" class="fab fa-blogger"></i>
+                                     </a>
+                                     </p> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- spotify content  -->
-    <div class="spotify container" style="margin-top: 100px;">
+    <div class="spotify container" style="margin-top: 50px;">
         <h1 style="margin-bottom: 20px;"><img height="30px" src="img/Spotify_Logo_RGB_Green.png" alt="spotify"></h1>
         <div class="container">
             <div class="row spotifyrow">
@@ -250,73 +227,86 @@
                         <button class="btn btn-outline-dark spotify-btn">Listen on Spotify <img
                                 src="img/icons8-circled-play.gif" height="18px" alt="playergif"></button></a>
                     <a href="https://podcasters.spotify.com/pod/show/9aqblrb4u23o0jm0ims4xhvpo/message" target="_blank">
-                        <button class="btn btn-outline-dark spotify-btn" data-aos="fade-in" data-aos-delay="200">Send
+                        <button class="btn btn-outline-dark spotify-btn" data-aos-delay="200">Send
                             Voice Message <i class="fas fa-microphone"></i></button></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- title baners -->
-    <div class="container text-center context"
-        style="color:  black; padding-top: 30px; padding-bottom: 30px; width: 100%; text-align: center;  " id="Blogs">
-        <h1 data-aos="fade-in" data-aos-duration="200">Start Your New Career Journey</h1>
-        <h3 data-aos="fadein" data-aos-duration="300">Do Follow Gayatimes</h3>
-        <p><a data-aos="fadein" data-aos-duration="300" href="https://www.blogger.com/profile/05797361068923120560"> <i
-                    style="font-size: 40px; color: orange;" class="fab fa-blogger"></i></a></p>
-    </div>
-    <!-- horizontal scrolling -->
-    <div class="container snap" style="overflow-x: hidden; margin-bottom: 20px;">
-        <div class="scroll-container" style="margin-bottom: 20px; padding-left: 20px;  ">
-            <div class="scroll-item">
-                <div class="iframely-embed">
-                    <div class="iframely-responsive rounded-iframe" style="padding-bottom: 52.5%; padding-top: 120px;">
-                        <a class="rounded-iframe"
-                            href="https://gayatimes.blogspot.com/2024/01/orion-innovations-hiring-full-stack.html"
-                            data-iframely-url="//iframely.net/UL23Dln"></a>
+    <!-- review page  -->
+    <div class="container cardColor reviewSection"
+        style="">
+        <h3 class=" reviews" data-aos="fade-in">Reviews</h3>
+        <div class="row">
+            <div class="col-sm-6" style="margin-top: 10px;">
+                <div class="card cardShadow" style="padding-bottom: 38px;" data-aos="fade-in">
+                    <div class="card-body ">
+                        <b><span style="font-size: 20px; color:red; opacity: .6;"><i
+                                    class="fas fa-quote-left"></i></span> Hi Gayathri Ramachandran </b><br> <small>I am
+                            Naveen thanks for offering this email for us.. am really happy to share this with you I have
+                            contacted some hr's through this and I got some response too. 🌟 Am completed my BE graduate
+                            and I am unemployed for last two years, Because of you now I got a solution for it.</small>
                     </div>
                 </div>
-                <script async src="//iframely.net/embed.js"></script>
             </div>
-            <div class="scroll-item">
-                <!-- Paste the duplicated content here -->
-                <div class="iframely-embed">
-                    <div class="iframely-responsive rounded-iframe" style="padding-bottom: 52.5%; padding-top: 120px;">
-                        <a href="https://gayatimes.blogspot.com/2024/01/resolve-itech-corp-hiring-medical-coder.html"
-                            data-iframely-url="//iframely.net/jY8XBTH"></a></div>
+            <div class="col-sm-6" style="margin-top: 10px;">
+                <div class="card cardShadow" data-aos="fade-in">
+                    <div class="card-body">
+                        <i style="color: red; opacity: .6; font-size: 20px;" class="fas fa-quote-left"></i><b> Hi
+                            There</b> <br>
+                        <small>
+                            Highly recommend the creative skills and design ability of Mrs. Gayathri Design. 🌟 We are
+                            delighted with the designs she has provided for us and strongly encourage you to consider
+                            her for design work for your organization. 🎨 She helped me get exactly what I was looking
+                            for. Thank you, Gayathri, for your great work! 👏👍</small>
+                    </div>
                 </div>
-                <script async src="//iframely.net/embed.js"></script>
             </div>
-            <div class="scroll-item">
-                <!-- Paste the duplicated content here -->
-                <div class="iframely-embed">
-                    <div class="iframely-responsive rounded-iframe" style="padding-bottom: 52.5%; padding-top: 120px;">
-                        <a href="https://gayatimes.blogspot.com/2024/01/rubrik-hiring-software-engineer-salary.html"
-                            data-iframely-url="//iframely.net/tfM6BE3"></a></div>
+        </div>
+    </div>
+    <div class="container" id="Blogs">
+        <div class="row h-100">
+            <div class="col-md-4 col-sm-6">
+                <div class="blog-card">
+                    <img src="img/blog1.jpg" alt="Blog Image" class="img-responsive blogImg">
+                    <div class="blog-content">
+                        <h3 style="color: black;"> Microsoft Hiring Software Engineer</h3>
+                        <small>Salary: 30 LPA - 45 LPA Bachelor's or Master's degree in Computer Science, Engineering,
+                            Experienced Candidates Can Apply</small>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175341891301900288?utm_source=share&utm_medium=member_desktop"
+                            target="_blank" class="btn btn-primary blogbtn">Read More</a>
+                    </div>
                 </div>
-                <script async src="//iframely.net/embed.js"></script>
             </div>
-            <div class="scroll-item">
-                <!-- Paste the duplicated content here -->
-                <div class="iframely-embed">
-                    <div class="iframely-responsive rounded-iframe" style="padding-bottom: 52.5%; padding-top: 120px;">
-                        <a href="https://gayatimes.blogspot.com/2024/01/samsung-hiring-full-stack-developer.html"
-                            data-iframely-url="//iframely.net/6l90ZNx"></a></div>
+            <div class="col-md-4 col-sm-6">
+                <div class="blog-card">
+                    <img src="img/blog2.jpg" alt="Blog Image" class="img-responsive blogImg">
+                    <div class="blog-content">
+                        <h3 style="color: black;"> PayPal Hiring Staff Software Engineer</h3>
+                        <small>Frontend Bengaluru Location Salary:
+                        </small> <br>
+                        <small>12 LPA - 18 LPA Freshers / Experienced Candidates Can Apply </small> <br>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175048414626295808?utm_source=share&utm_medium=member_desktop"
+                            target="_blank" class="btn btn-primary blogbtn">Read More</a>
+                    </div>
                 </div>
-                <script async src="//iframely.net/embed.js"></script>
             </div>
-            <div class="scroll-item">
-                <!-- Paste the duplicated content here -->
-                <div class="iframely-embed">
-                    <div class="iframely-responsive rounded-iframe" style="padding-bottom: 52.5%; padding-top: 120px;">
-                        <a href="https://gayatimes.blogspot.com/2024/01/phonepe-is-hiring-for-role-of-process.html"
-                            data-iframely-url="//iframely.net/x40th10"></a></div>
+            <div class="col-md-4 col-sm-6">
+                <div class="blog-card">
+                    <img src="img/GE-300x166.webp" alt="Blog Image" class="img-responsive blogImg">
+                    <div class="blog-content">
+                        <h3 style="color: black;"> GE Digital Hiring Software Engineer</h3>
+                        <small> Bachelor's Degree in Computer Science or STEM” Majors Science, Technology, Engineering
+                            and Math Freshers / Experienced Candidates Can Appl
+                        </small>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7174682089605275648?utm_source=share&utm_medium=member_desktop" target="_blank" class="btn btn-primary blogbtn">Read More</a>
+                    </div>
                 </div>
-                <script async src="//iframely.net/embed.js"></script>
             </div>
         </div>
     </div>
     <!-- client footer -->
-    <footer style="background-color: black; " id="Contact">
+    <footer style="background-color: black;  color: white;" id="Contact">
         <div class="footer-copyright container" id="Contact" style="padding-top: 20px;">
             <div class="row justify-content-center">
                 <div class="col-sm-4 text-center">
@@ -341,7 +331,7 @@
         </div>
     </footer>
     <!-- company footer  -->
-    <footer style="background-color: black;" id="Contact">
+    <footer style="background-color: black; color: white;" id="Contact">
         <div class="footer-copyright container" id="Contact" style="padding-top: 20px;">
             <div class="row justify-content-center">
                 <div class="col-sm-4 text-center footcon">
@@ -350,14 +340,14 @@
                                 src="img/logo (1).webp" alt="softrateLogo"></a>
                     </div>
                 </div>
-                <div class="col-sm-4 text-center footcon">
+                <div class="col-sm-4 text-center footcon hide">
                     <p class="mb-0" style="font-size:10px; "><a class="softratelink"
-                            href="https://www.softrateglobal.com/" target="_blank">https://www.softrateglobal.com</a>
+                            href="https://www.softrateglobal.com/" target="_blank">Powered By Softrate</a>
                     </p>
                 </div>
                 <div class="col-sm-4 text-center footcon">
                     <p class="mb-0" style="font-size:10px;">@Copyright Reserved to <a class="softratelink"
-                            href="https://www.softrateglobal.com/" target="_blank"> softrate global </a> 2023.</p>
+                            href="https://www.softrateglobal.com/" target="_blank"> Softrate Technologies </a> 2024</p>
                 </div>
             </div>
         </div>
@@ -393,33 +383,7 @@
             $('.navbar-toggler').click(); // Simulate a click on the navbar-toggler button
         }
         AOS.init();
-        // Wrap every letter in a span
-        var textWrapper = document.querySelector('.ml1 .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-        anime.timeline({ loop: false })
-            .add({
-                targets: '.ml1 .letter',
-                scale: [0.3, 1],
-                opacity: [0, 1],
-                translateZ: 0,
-                easing: "easeOutExpo",
-                duration: 1000,
-                delay: (el, i) => 70 * (i + 1)
-            }).add({
-                targets: '.ml1 .line',
-                scaleX: [0, 1],
-                opacity: [0.5, 1],
-                easing: "easeOutExpo",
-                duration: 900,
-                offset: '-=875',
-                delay: (el, i, l) => 80 * (l - i)
-            }).add({
-                targets: '.ml1',
-                opacity: 1,
-                duration: 1000,
-                easing: "easeOutExpo",
-                delay: 1000
-            });
+        
     </script>
     <!-- Add Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -447,17 +411,7 @@
             }
             startAutoScroll();
         });
-        VANTA.TOPOLOGY({
-            el: "#your-element-selector",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00
-        })
+     
     </script>
 </body>
-
 </html>
