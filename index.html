@@ -348,8 +348,9 @@
                     </p>
                 </div>
                 <div class="col-sm-4 text-center footcon">
-                    <p class="mb-0" style="font-size:10px;">@Copyright Reserved to <a class="softratelink"
-                            href="https://www.softrateglobal.com/" target="_blank"> Softrate Technologies </a> 2024</p>
+                    <p class="mb-0" style="font-size:10px;" id="copyright">@Copyright Reserved to <a class="softratelink"
+                        href="https://www.softrateglobal.com/" target="_blank"> Softrate Technologies </a> <span id="year"></span></p>
+            
                 </div>
             </div>
         </div>
@@ -364,7 +365,10 @@
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script>
-
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+        // Update the year in the HTML content
+        document.getElementById("year").textContent = currentYear;
 
         // Function to handle visibility based on screen width
         function handleVisibility() {
